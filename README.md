@@ -6,11 +6,11 @@ Simple python3 script for checking SPF & DMARC records.
 
 Email spoofing is one of the most effective techniques to get initial access or harvest credentials. A lot of organizations mess up their spf records or misconfigure their DMARC record. This is a simple script that fetches that info and gives you information on whether the domain emails can be effectively spoofed or not.
 
-### Platform
+## Platform
 
-* Works on windows or linux with python3.
+Works on windows or linux with python3.
 
-### Installing
+## Installing
 ```
 git clone https://github.com/keocol/e-valuator
 pip install -r requirements.txt
